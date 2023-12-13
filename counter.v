@@ -14,7 +14,6 @@ module counter
 
 );
 
-// Insert your RTL here
 localparam [1:0] S_RST = 2'b00, S0 = 2'b01, S1 = 2'b10;
 
 reg flag;
