@@ -20,8 +20,6 @@ module pe
     output  reg                     out_valid
 );
 
-// Insert your RTL here
-
 reg [D_W_ACC-1:0] mac;
 reg in_valid_reg;
 reg [D_W_ACC-1:0] in_data_reg;
