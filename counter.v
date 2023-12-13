@@ -95,5 +95,4 @@ always @(posedge clk) begin: slice_stmc
     endcase
   end
 end
-
 endmodule
