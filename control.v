@@ -18,7 +18,6 @@ module control
     output  wire    [$clog2((M*M)/N2)-1:0]              rd_addr_B
   );
 
-// insert your RTL for rd_addr_A, rd_addr_B here
 assign rd_addr_A = (slice_cntr_A * M + pixel_cntr_A);
 assign rd_addr_B = (slice_cntr_B + pixel_cntr_B * M);
 
